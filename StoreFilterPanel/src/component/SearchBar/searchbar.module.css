@@ -1,0 +1,20 @@
+.searchBar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 1px;
+}
+
+.searchBar__input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.searchBar__input:focus{
+    outline: none !important;
+
+}

@@ -1,0 +1,10 @@
+.filter{
+min-width: 250px;
+
+margin-right: 10px;
+}
+
+.category__name{
+    font-size: 25px;
+}
+
