@@ -1,0 +1,39 @@
+@import "../abstract/constants.scss";
+
+.button {
+  padding: 8px 19px;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  border: 0.1px solid gainsboro;
+  transition: all 0.3s;
+  &:hover{
+background-color: white
+  }
+}
+
+.button-colored{
+    background-color: $buttonYellowCollor;
+    border: none;
+    box-shadow: 0px 18.0478px 31.5836px rgba(241, 165, 1, 0.15);
+    color: white;
+    &:hover{
+        background-color: #ebb643;
+
+    }
+}
+.rounded__button{
+border-radius: 50%;
+height: 40px;
+width: 40px;
+border: none;
+background-color:$buttonYellowCollor ;
+margin-top: 25%;
+font-size: 25px;
+cursor: pointer;
+padding-bottom: 5px;
+&:hover{
+  background-color: #ebb643;
+}
+}

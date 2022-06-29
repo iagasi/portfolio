@@ -1,0 +1,24 @@
+//@import "../abstract/mixins.scss";
+
+.l-4-columns{
+      @include columns(14%)  ;
+      & *{
+        width: 160px;
+           }
+
+
+}
+
+.l-3-col{
+    @include columns()  ;
+
+
+}
+
+.l-2-columns{
+  display: flex;
+ 
+       
+
+
+}

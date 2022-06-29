@@ -1,0 +1,38 @@
+@import "../abstract/constants.scss";
+@import "../abstract/placeholders.scss";
+
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-right: 10px;
+background-color: #dee1fc;
+}
+.footer__logo{
+    font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 66px;
+/* identical to box height */
+
+
+/* 1st */
+
+color: #181E4B;
+}
+.footer__title {
+  margin-bottom: 15px;
+}
+.footer-navigation{
+
+}
+.footer-navigation__link {
+ 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+ padding-top: 12px;
+  @extend %transition;
+ & :hover{
+    color:$buttonYellowCollor;
+ }
+}

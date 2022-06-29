@@ -1,0 +1,19 @@
+.auth-modal{
+padding: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.auth__item{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    input{
+border-radius: 10px;
+border: none;
+background-color: rgb(187, 183, 183);
+height: 30px;
+    }
+    
+}

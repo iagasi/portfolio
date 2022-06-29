@@ -1,0 +1,13 @@
+.category {
+  padding-top: 88px;
+  &__columns {
+    @media (max-width: 400px) {
+     
+
+      > * {
+        margin: 0 auto;
+      
+      }
+    }
+  }
+}

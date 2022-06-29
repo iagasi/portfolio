@@ -1,0 +1,50 @@
+@import "../abstract/constants.scss";
+
+.text-center{
+    margin: 0 auto;
+   text-align: center;
+   color:$collor-h1;
+
+
+   
+}
+
+.text-left{
+    margin: 0 auto;
+   color:$collor-h1;
+ 
+}
+@media only screen and (max-width: 760px) {
+    .text-left{
+        text-align: center;
+    }
+}
+.f-1-4rem{
+    font-size:  1.4rem;
+}
+
+
+.title{
+    font-style: normal;
+font-weight: 700;
+font-size: 45.1194px;
+line-height: 58px;
+text-transform: capitalize;
+
+/* 3rd */
+
+color: #14183E;
+}
+
+.title-top{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16.243px;
+line-height: 24px;
+text-transform: uppercase;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}

@@ -1,0 +1,73 @@
+.bookTrip {
+  padding-top: 168px;
+  display: flex;
+max-width: 100%;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    > * {
+      width: 45%;
+    }
+  }
+  &__left{
+    h2{
+     
+    }
+  }
+&__right {
+    padding-top: 75px;
+    display: flex;
+ 
+  }
+}
+.bookTrip__steep {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  & img {
+    width: 42.41px;
+    height: 43.31px;
+  }
+}
+
+
+.bookTrip__example {
+  padding: 18px 22px;
+  width: 333.88px;
+  height: 360.96px;
+  background: #ffffff;
+  box-shadow: 0px 90.2388px 72.191px rgba(0, 0, 0, 0.02),
+    0px 58.4881px 42.2785px rgba(0, 0, 0, 0.0151852),
+    0px 34.7586px 22.9942px rgba(0, 0, 0, 0.0121481),
+    0px 18.0478px 11.731px rgba(0, 0, 0, 0.01),
+    0px 7.35279px 5.88223px rgba(0, 0, 0, 0.00785185),
+    0px 1.67109px 2.84085px rgba(0, 0, 0, 0.00481481);
+  border-radius: 23.4621px;
+
+  & img {
+    width: 289.67px;
+    height: 145.28px;
+   max-width: 100%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .bookTrip__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    * {
+     width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+  }
+  .bookTrip__steep{
+    width: 80%;
+    text-align: center;
+  }
+}

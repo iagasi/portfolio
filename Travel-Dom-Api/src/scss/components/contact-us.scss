@@ -1,0 +1,53 @@
+@import "../abstract/constants.scss";
+.contact {
+
+  background-image: url("..//img/contact/contact.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  padding-top: 71px;
+  padding-bottom: 71px;
+
+  // background-color:$color-contact-container ;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left {
+    max-width: 400px;
+  }
+}
+.contact__options{
+  padding-top: 50px;
+
+}
+.contant__inputs {
+  margin-bottom: 18px;
+  gap: 18px;
+
+
+ 
+}
+.contact__form{
+    input, textarea {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        resize: none;
+        width: 100%;
+      
+      }
+      & input:focus,
+      textarea:focus {
+        outline: none;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .contact__content{
+display: flex;
+flex-direction: column;
+  }
+}

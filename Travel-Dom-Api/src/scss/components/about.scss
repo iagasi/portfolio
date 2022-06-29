@@ -1,0 +1,52 @@
+.about {
+  padding-top: 180px;
+  padding-bottom: 70px;
+  &__avatar {
+    position: absolute;
+    left: -30px;
+    top: -30px;
+  }
+  &__dots {
+    width: 80px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__right {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.about__review {
+  position: relative;
+  padding: 25px 65px 30px 30px;
+  min-width: 454.8px;
+  min-height: 221.09px;
+
+  background: #f1a3a3;
+  box-shadow: 0px 90.2388px 72.191px rgba(0, 0, 0, 0.02),
+    0px 58.4881px 42.2785px rgba(0, 0, 0, 0.0151852),
+    0px 34.7586px 22.9942px rgba(0, 0, 0, 0.0121481),
+    0px 18.0478px 11.731px rgba(0, 0, 0, 0.01),
+    0px 7.35279px 5.88223px rgba(0, 0, 0, 0.00785185),
+    0px 1.67109px 2.84085px rgba(0, 0, 0, 0.00481481);
+  border-radius: 9.02388px;
+}
+
+@media only screen and (max-width: 760px) {
+  .about {
+    &__left {
+      width: 90%;
+    }
+    &__right {
+      width: 90%;
+    }
+  }
+  .about__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+}

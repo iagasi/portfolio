@@ -1,0 +1,8 @@
+@import "../abstract/constants.scss";
+.dot {
+  width: 10.83px;
+  height: 10.83px;
+  border-radius: 50%;
+  background-color: $color-dot;
+}
+

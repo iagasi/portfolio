@@ -1,0 +1,41 @@
+@mixin columns($width:auto) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    // >*{
+    //    flex-basis: $width;
+  
+    // }
+}
+
+@mixin media-laptop{
+    @media screen and (max-width:110px){
+        
+    }
+}
+
+@mixin media-tablet(){
+    @media only screen and  (max-width:760px){
+        .hamburger{
+            display: flex
+        }
+        .header__navigation{
+            display: none;
+        }
+        .header__wrapper{
+padding-left: 20px;
+        }
+    }
+}
+
+@mixin media-mobile{
+    @media screen {
+        
+    }
+}
+@mixin media-mobilesmall{
+    @media screen {
+        
+    }
+}

@@ -1,0 +1,18 @@
+.logo-svg{
+    cursor: pointer !important;
+}
+.logo-svg:hover{
+ cursor: pointer !important;
+.logo-color{
+       
+
+fill: blueviolet ;
+}
+}
+.logo {
+    cursor: pointer;
+
+    @media (max-width: 400px) {
+      display: none;
+    }
+  }

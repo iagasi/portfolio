@@ -1,0 +1,44 @@
+export const destinations=[
+{
+    id:"1",
+  img:"./img/destinations/1.png",
+  place:"Rome,Italy",
+  price:"5.42k",
+  days:"1-3"
+},
+{
+    id:"2",
+    img:"./img/destinations/2.png",
+    place:"Rome,Italy",
+    price:"4.5k",
+    days:"3-5"
+  },
+  {
+    id:"3",
+    img:"./img/destinations/3.png",
+    place:"Full,Europe",
+    price:"5.42k",
+    days:"3-5"
+  },
+  {
+    id:"5",
+  img:"https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?cs=srgb&dl=pexels-peng-liu-169647.jpg&fm=jpg",
+  place:"Toki Japan",
+  price:"5.42k",
+  days:"1-3"
+},
+{
+  id:"6",
+img:"https://images.unsplash.com/photo-1569974498991-d3c12a504f95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlnJTIwY2l0eXxlbnwwfHwwfHw%3D&w=1000&q=80",
+place:"New,Yourk",
+price:"5.42k",
+days:"1-3"
+},
+{
+  id:"7",
+img:"https://www.investopedia.com/thmb/PHkZw2rPIHHhj7-KqcJiZ8NDVq4=/735x0/pedestrian-architecture-road-skyline-traffic-street-71505-pxhere.com-ea7fd4d112754938828312ff123c084c.jpg",
+place:"Chocago",
+price:"8.42k",
+days:"3-5"
+},
+] 

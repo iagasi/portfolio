@@ -1,0 +1,42 @@
+@import "../abstract/mixins.scss";
+
+%line {
+  //display: inline-block;
+  position: absolute;
+  height: 2px;
+  background: black;
+  width: 31px;
+  content: "";
+}
+.hamburger {
+  display: none;
+  height: 25px;
+  width: 31px;
+cursor: pointer;
+  position: relative;
+  align-items: center;
+
+  &:before {
+    @extend %line;
+    top: 0px;
+    left: 0;
+  }
+  &:after {
+    @extend %line;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+
+.hamburger__line {
+  @extend %line;
+  position: absolute;
+  top: 12px;
+}
+
+.hamburger__active {
+
+  transition: 0.5s ease;
+  transform: rotate(90deg);
+}
+@include media-tablet ;
